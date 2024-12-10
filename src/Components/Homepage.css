@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.homepage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 3rem 0 3rem;
+
+  margin-top: 108px;
+}
+
+.first-main-div {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 124px;
+  font-weight: 400;
+  line-height: 123.84px;
+  text-align: left;
+
+  text-decoration-skip-ink: none;
+}
+
+.text-container {
+  width: 340px;
+  height: 112px;
+  top: 3px;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-end;
+
+  padding-top: 180px;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  text-align: left;
+}
+
+.try-button {
+  width: 229px;
+  height: 49px;
+
+  font-size: 1rem;
+  letter-spacing: 1px;
+
+  border-radius: 9999px;
+  border: 2px solid;
+}
+
+/* second-div */
+
+.second-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+
+  height: 700px;
+}
+
+.photo-of-desert {
+  width: 772px;
+  height: 604px;
+  left: 672px;
+  padding: 0px 9px 40px 35px;
+}
+
+.sign-button {
+  width: 212px;
+  height: 64px;
+  gap: 0px;
+  border-radius: 9999px;
+  border: 2px solid;
+  opacity: 0px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
